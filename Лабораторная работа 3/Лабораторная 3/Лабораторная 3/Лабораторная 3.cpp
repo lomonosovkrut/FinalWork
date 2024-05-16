@@ -13,9 +13,9 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	int a, b, c, d, x1, x2, x3, x4, x5, x6, min;
 	printf("Введите четыре целых числа: ");
-	scanf_s(" %d %d %d %d", &a, &b, &c, &d);	
+	scanf_s(" /n%d /n%d /n%d /n%d", &a, &b, &c, &d);	
 
-	x1 = abs(a - b);
+	x1 = abs(a - b);// dfjkdgls;lkghsddghs
 	x2 = abs(a - c);
 	x3 = abs(a - d);
 	x4 = abs(b - c);
